@@ -2,7 +2,7 @@
         description = "?",
     drawtype = "mesh",
         mesh = "chat.obj",
-        tiles = {"chat.png"},
+        tiles = {"cat.png"},
         paramtype2 = "facedir",
         selection_box = {
             type= "fixed",
