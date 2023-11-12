@@ -1,8 +1,8 @@
-minetest.register_node("cat_plushies:chat_roux", {
+minetest.register_node("plushies:chat_roux", {
     description = "Orange cat plushy",
     drawtype = "mesh",
-    mesh = "chat.obj",
-    tiles = {"cat.png"},
+    mesh = "plushies_cat.obj",
+    tiles = {"plushies_cat_orange.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -13,14 +13,14 @@ minetest.register_node("cat_plushies:chat_roux", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "orange_cat_icon.png",
+    inventory_image = "plushies_cat_orange_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:chat_roux",
+    output = "plushies:chat_roux",
     recipe = {
         {"", "", ""},
         {"dye:orange", "farming:cotton", "default:paper"},
@@ -29,11 +29,11 @@ minetest.register_craft({
 })
 
 
-minetest.register_node("cat_plushies:chat_noir", {
+minetest.register_node("plushies:chat_noir", {
     description = "Black cat plushy",
     drawtype = "mesh",
-    mesh = "chat.obj",
-    tiles = {"cat_2.png"},
+    mesh = "plushies_cat.obj",
+    tiles = {"plushies_cat_black.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -44,14 +44,14 @@ minetest.register_node("cat_plushies:chat_noir", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "black_cat_icon.png",
+    inventory_image = "plushies_cat_black_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:chat_noir",
+    output = "plushies:chat_noir",
     recipe = {
         {"", "", ""},
         {"dye:black", "farming:cotton", "default:paper"},
@@ -60,11 +60,11 @@ minetest.register_craft({
 })
 
 
-minetest.register_node("cat_plushies:brown_bear", {
+minetest.register_node("plushies:brown_bear", {
     description = "Brown bear plushy",
     drawtype = "mesh",
-    mesh = "bear.obj",
-    tiles = {"brown_bear.png"},
+    mesh = "plushies_bear.obj",
+    tiles = {"plushies_bear_brown.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -75,14 +75,14 @@ minetest.register_node("cat_plushies:brown_bear", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "brown_bear_icon.png",
+    inventory_image = "plushies_bear_brown_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:brown_bear",
+    output = "plushies:brown_bear",
     recipe = {
         {"", "farming:cotton", ""},
         {"dye:brown", "farming:cotton", "default:paper"},
@@ -90,11 +90,11 @@ minetest.register_craft({
     }
 })
 
-minetest.register_node("cat_plushies:polar_bear", {
+minetest.register_node("plushies:polar_bear", {
     description = "Polar bear plushy",
     drawtype = "mesh",
-    mesh = "bear.obj",
-    tiles = {"polar_bear.png"},
+    mesh = "plushies_bear.obj",
+    tiles = {"plushies_bear_polar.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -105,14 +105,14 @@ minetest.register_node("cat_plushies:polar_bear", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "polar_bear_icon.png",
+    inventory_image = "plushies_bear_polar_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:polar_bear",
+    output = "plushies:polar_bear",
     recipe = {
         {"", "farming:cotton", ""},
         {"dye:white", "farming:cotton", "default:paper"},
@@ -121,11 +121,11 @@ minetest.register_craft({
 })
 
 
-minetest.register_node("cat_plushies:black_hamster", {
+minetest.register_node("plushies:black_hamster", {
     description = "Black hamster plushy",
     drawtype = "mesh",
-    mesh = "hamster.obj",
-    tiles = {"black_hamster.png"},
+    mesh = "plushies_hamster.obj",
+    tiles = {"plushies_hamster_black.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -136,14 +136,14 @@ minetest.register_node("cat_plushies:black_hamster", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "hamster_icon.png",
+    inventory_image = "plushies_hamster_black_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:black_hamster",
+    output = "plushies:black_hamster",
     recipe = {
         {"", "", ""},
         {"dye:white", "dye:black", ""},
@@ -152,11 +152,11 @@ minetest.register_craft({
 })
 
 
-minetest.register_node("cat_plushies:poulpe", {
+minetest.register_node("plushies:poulpe", {
     description = "Octopus plushy",
     drawtype = "mesh",
-    mesh = "poulpe.obj",
-    tiles = {"poulpe.png"},
+    mesh = "plushies_octopus.obj",
+    tiles = {"plushies_octopus.png"},
     paramtype2 = "facedir",
     paramtype="light",
     selection_box = {
@@ -167,14 +167,14 @@ minetest.register_node("cat_plushies:poulpe", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "poulpe_icon.png",
+    inventory_image = "plushies_octopus_inv.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
 })
 
 minetest.register_craft({
-    output = "cat_plushies:poulpe",
+    output = "plushies:poulpe",
     recipe = {
         {"", "", ""},
         {"dye:white", "farming:cotton", ""},
