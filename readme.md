@@ -1,6 +1,7 @@
 # Plushies
 
-Plushies for Minetest:
+Plushies for Minetest
+![screenshot of plushies](screenshot.jpg)
 * Bears (Brown Bear, Polar Bear)
 * Cat
 * Hamster
