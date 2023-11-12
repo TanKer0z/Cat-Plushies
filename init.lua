@@ -140,7 +140,7 @@ minetest.register_craft({
     })
 
 minetest.register_craft({
-	output = "cat_plushies:polar_bear",
+	output = "cat_plushies:black_hamster",
 	recipe = {
 		{"", "", ""},
 		{"dye:white", "dye:black", ""},
