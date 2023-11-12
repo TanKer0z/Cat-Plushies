@@ -6,9 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
 ## [Unreleased] - 2023-11-11
+### Added
+(Poikilos)
+- Make a loop to add bears with less code.
+
 ### Changed
 (Poikilos)
 - Change namespace from cat_plushies to plushies.
+- Make node names consistent (and add aliases for worlds that ran an older version).
 
 ### Fixed
 (Poikilos)
