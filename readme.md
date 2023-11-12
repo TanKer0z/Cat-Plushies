@@ -12,7 +12,7 @@ Plushies for Minetest:
 Copyright (C) 2021-2022: Atlante (Soldier01)
 
 Additional authors:
-- 2023 Poikilos (fix). See 2023-11-11 in [Changelog](changelog.md).
+- 2023 Poikilos (fixed, changed). See 2023-11-11 in [Changelog](changelog.md).
 
 License: See [license.txt](license.txt)
 

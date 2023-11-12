@@ -1,5 +1,5 @@
 minetest.register_node("cat_plushies:chat_roux", {
-    description = "Plushies of an orange cat",
+    description = "Orange cat plushy",
     drawtype = "mesh",
     mesh = "chat.obj",
     tiles = {"cat.png"},
@@ -30,7 +30,7 @@ minetest.register_craft({
 
 
 minetest.register_node("cat_plushies:chat_noir", {
-    description = "Plushies of an black cat",
+    description = "Black cat plushy",
     drawtype = "mesh",
     mesh = "chat.obj",
     tiles = {"cat_2.png"},
@@ -61,7 +61,7 @@ minetest.register_craft({
 
 
 minetest.register_node("cat_plushies:brown_bear", {
-    description = "Plushies of an brown bear",
+    description = "Brown bear plushy",
     drawtype = "mesh",
     mesh = "bear.obj",
     tiles = {"brown_bear.png"},
@@ -91,7 +91,7 @@ minetest.register_craft({
 })
 
 minetest.register_node("cat_plushies:polar_bear", {
-    description = "Plushies of an polar bear",
+    description = "Polar bear plushy",
     drawtype = "mesh",
     mesh = "bear.obj",
     tiles = {"polar_bear.png"},
@@ -122,7 +122,7 @@ minetest.register_craft({
 
 
 minetest.register_node("cat_plushies:black_hamster", {
-    description = "Plushies of an black hamster",
+    description = "Black hamster plushy",
     drawtype = "mesh",
     mesh = "hamster.obj",
     tiles = {"black_hamster.png"},
@@ -136,7 +136,7 @@ minetest.register_node("cat_plushies:black_hamster", {
         type = "fixed",
         fixed = {-0.3, -0.46, -0.4, 0.3, 0.3, 0.3}
     },
-    inventory_image = "haster_icon.png",
+    inventory_image = "hamster_icon.png",
     is_ground_content = false,
     groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
     flammable = 3, wool = 1}
@@ -153,7 +153,7 @@ minetest.register_craft({
 
 
 minetest.register_node("cat_plushies:poulpe", {
-    description = "Plushies of an Octopus",
+    description = "Octopus plushy",
     drawtype = "mesh",
     mesh = "poulpe.obj",
     tiles = {"poulpe.png"},
