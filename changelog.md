@@ -9,6 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 (Poikilos)
 - Make a loop to add bears with less code.
+- Giant panda plushy (texture & code for existing bear model)
+- Aliases to fix plushies in worlds already using the mod (old "cat_plushies" namespace)
 
 ### Changed
 (Poikilos)

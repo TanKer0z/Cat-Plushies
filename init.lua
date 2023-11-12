@@ -1,7 +1,7 @@
 minetest.register_node("plushies:cat_orange", {
     description = "Orange cat plushy",
     drawtype = "mesh",
-    mesh = "plushies_cat.obj",
+    mesh = "plushies_cat.b3d",
     tiles = {"plushies_cat_orange.png"},
     paramtype2 = "facedir",
     paramtype="light",
@@ -32,7 +32,7 @@ minetest.register_craft({
 minetest.register_node("plushies:cat_black", {
     description = "Black cat plushy",
     drawtype = "mesh",
-    mesh = "plushies_cat.obj",
+    mesh = "plushies_cat.b3d",
     tiles = {"plushies_cat_black.png"},
     paramtype2 = "facedir",
     paramtype="light",
@@ -74,6 +74,12 @@ local bears = {
         ingredient = "dye:white",
         ingredient2 = "",
     },
+    {
+        id = "bear_panda",
+        caption = "Giant panda plushie",
+        ingredient = "dye:black",
+        ingredient2 = "dye:white",
+    },
 }
 
 for _, thisdef in ipairs(bears) do
@@ -112,7 +118,7 @@ end
 minetest.register_node("plushies:hamster_black", {
     description = "Black hamster plushy",
     drawtype = "mesh",
-    mesh = "plushies_hamster.obj",
+    mesh = "plushies_hamster.b3d",
     tiles = {"plushies_hamster_black.png"},
     paramtype2 = "facedir",
     paramtype="light",
@@ -143,7 +149,7 @@ minetest.register_craft({
 minetest.register_node("plushies:octopus", {
     description = "Octopus plushy",
     drawtype = "mesh",
-    mesh = "plushies_octopus.obj",
+    mesh = "plushies_octopus.b3d",
     tiles = {"plushies_octopus.png"},
     paramtype2 = "facedir",
     paramtype="light",
@@ -170,9 +176,9 @@ minetest.register_craft({
     }
 })
 
-minetest.register_alias("plushies:brown_bear", "plushies:bear_brown")
-minetest.register_alias("plushies:polar_bear", "plushies:bear_polar")
-minetest.register_alias("plushies:chat_noir" , "plushies:cat_black")
-minetest.register_alias("plushies:chat_roux", "plushies:cat_orange")
-minetest.register_alias("plushies:black_hamster", "plushies:hamster_black")
-minetest.register_alias("plushies:poulpe", "plushies:octopus")
+minetest.register_alias("cat_plushies:brown_bear", "plushies:bear_brown")
+minetest.register_alias("cat_plushies:polar_bear", "plushies:bear_polar")
+minetest.register_alias("cat_plushies:chat_noir" , "plushies:cat_black")
+minetest.register_alias("cat_plushies:chat_roux", "plushies:cat_orange")
+minetest.register_alias("cat_plushies:black_hamster", "plushies:hamster_black")
+minetest.register_alias("cat_plushies:poulpe", "plushies:octopus")
